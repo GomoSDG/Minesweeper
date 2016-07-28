@@ -1,0 +1,10 @@
+C:\Users\Student\Documents\Visual Studio 2012\Projects\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\bin\Debug\Minesweeper.pdb
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\obj\Debug\Minesweeper.frmGame.resources
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.Cache
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\GomoSDG\Downloads\Minesweeper\Minesweeper\Minesweeper\obj\Debug\Minesweeper.pdb
