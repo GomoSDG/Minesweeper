@@ -39,17 +39,32 @@ namespace Minesweeper
             this.Size = new System.Drawing.Size(Size, Size);
             hasMine = false;
             iSurroundingMines = 0;
-            this.MouseClick += Square_MouseClick;
+            this.MouseUp += Square_MouseClick;
             this.Game = Game;
             isPopped = false;
             squareLocation = Location;
         }
 
-        void Square_MouseClick(object sender, MouseEventArgs e)
+        void Square_MouseClick(object sender, EventArgs e)
         {
-            if (e.Button == MouseButtons.Left && !isPopped)
+            MouseEventArgs mouseEvent = (MouseEventArgs)e;
+            if (mouseEvent.Button == MouseButtons.Left && !isPopped && !isFlagged)
             {
                 PopSquare();
+            }
+            
+            if(mouseEvent.Button == MouseButtons.Right && !isPopped)
+            {
+                if (isFlagged)
+                {
+                    this.BackColor = SystemColors.ControlLight;
+                    this.isFlagged = false;
+                }
+                else
+                {
+                    this.BackColor = Color.OrangeRed;
+                    this.isFlagged = true;
+                }
             }
         }
 
@@ -89,8 +104,6 @@ namespace Minesweeper
 
         private void PopSurroundingEmptyTiles(int x, int y)
         {
-            
-            
                 try
                 {
                     ISquare sideSquare = Game.getSquares()[x, y];
@@ -98,7 +111,6 @@ namespace Minesweeper
                         sideSquare.PopSquare();
                 }
                 catch { }
-            
         }
     }
 }
